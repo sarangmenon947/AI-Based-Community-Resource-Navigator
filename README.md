@@ -61,3 +61,40 @@ All libraries are part of the Python standard library:
 - typing
 
 No third-party packages are required.
+
+## How the Application Works
+# Step 1: User Input
+
+The user types a description of their situation, for example:
+
+I need help paying rent
+
+Looking for free dental care
+
+My child needs tutoring
+
+I am struggling with depression
+
+# Step 2: Text Analysis
+
+The application processes the input by:
+
+Converting the text to lowercase
+
+Breaking the text into words
+
+Matching words against predefined keywords
+
+Checking context based on categories (housing, food, mental health, etc.)
+
+Comparing text similarity with resource descriptions
+
+Calculating a confidence score
+
+# Step 3: Resource Ranking
+
+Resources are ranked by confidence score
+
+The most relevant matches are displayed first
+
+Only results above a relevance threshold are shown
