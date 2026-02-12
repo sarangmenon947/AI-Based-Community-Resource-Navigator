@@ -63,7 +63,7 @@ All libraries are part of the Python standard library:
 No third-party packages are required.
 
 ## How the Application Works
-# Step 1: User Input
+### Step 1: User Input
 
 The user types a description of their situation, for example:
 
@@ -75,7 +75,7 @@ My child needs tutoring
 
 I am struggling with depression
 
-# Step 2: Text Analysis
+### Step 2: Text Analysis
 
 The application processes the input by:
 
@@ -91,7 +91,7 @@ Comparing text similarity with resource descriptions
 
 Calculating a confidence score
 
-# Step 3: Resource Ranking
+### Step 3: Resource Ranking
 
 Resources are ranked by confidence score
 
